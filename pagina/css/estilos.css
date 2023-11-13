@@ -1,0 +1,83 @@
+body {
+    background-color: #444af2;
+    margin: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+h2 {
+    color: rgba(245, 245, 245, 1)
+}
+
+p {
+    color: rgb(39, 37, 89);
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 80%;
+    margin: 0 5%;
+    border: 10px solid #142f40;
+    border-radius: 20px;
+    padding: 5%;
+    background-color: #d92938;
+}
+
+div {
+    margin: 10px 0;
+    text-align: center;
+}
+
+div a,
+div a:link,
+div a:visited {
+    background-color: chartreuse;
+    color: aqua;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    border: 10px solid #212187;
+    border-radius: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 auto;
+}
+
+div a:hover,
+a:active {
+    background-color: #d92938;
+    color: deeppink;
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+    background-color: rgb(227, 221, 212);
+}
+
+nav a {
+    color: #863168;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    margin: 0 50px;
+}
+
+nav a:visited {
+    color: rgb(106, 0, 255);
+}
+
+nav a:hover {
+    color: darkblue;
+    background-color: rgb(117, 74, 18);
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
